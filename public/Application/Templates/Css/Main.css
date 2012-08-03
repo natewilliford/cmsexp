@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #777;
+    font-family: Helvetica;
+}
+body {
+    background-color: #efefef;
+    font-size: 13px;
+}
+div.clear {
+    clear: both;
+}
+.wrapper{
+    width: 900px;
+    background-color: #fff;
+    margin: auto;
+}
+.col1 {
+    float: left;
+    width: 250px;
+}
+.col2 {
+    float: left;
+    width: 650px;
+}
+
+div.content.post {
+    padding: 0.6em;
+    margin: 1em;
+    border: 1px solid #efefef;
+}
+
+.content .title {
+    font-size: 15px;
+    line-height: 24px;
+}
