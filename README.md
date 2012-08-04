@@ -5,15 +5,18 @@ web applications while being able to scale out when needed. I started building i
 mind that I haven't seen done very well in any other framework or CMS.
 
 *True Separation of Structure and Data*
+
 Because of the nature of MongoDb, data(content) types can be made programatically. This means if the dababase
 isn't found, it will be built from the application. No special database schema structure is needed to be initialized.
 
 This makes for true separation of application structure and functionality from the data or state of the application.
 
 *Modularity*
+
 Once the system of the framework is built, it should be pretty much infinitely expandable based on modules. New data types can be defined as well as new pages and functionality of the application. Modules can be defined as dependent on another module if it needs its api or library.
 
 *Object Oriented*
+
 That's right. Real OOP with a modular framework.
 
 
