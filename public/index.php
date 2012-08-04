@@ -5,7 +5,7 @@
 
 require_once '../Bootstrap.php';
 
-Config::setDocumentRoot('/Users/nathan/Sites/cmsexp');
+Config::setDocumentRoot('/Users/nathan/Projects/Sites/cmsexp');
 
 //class MyHook implements Application_Hook {
 //    

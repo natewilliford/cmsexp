@@ -26,14 +26,16 @@ class Application {
     
     public static function getContentDb() {
         if (!self::$_contentDb) {
-            self::$_contentDb = self::getMongo()->cms_content;//make configurable
+            // todo: make configurable
+            self::$_contentDb = self::getMongo()->cms_content;
         }
         return self::$_contentDb;
     }
     
     public static function getStructureDb() {
         if (!self::$_structureDb) {
-            self::$_structureDb = self::getMongo()->cms_structure; //make configurable
+            // todo: make configurable
+            self::$_structureDb = self::getMongo()->cms_structure;
         }
         return self::$_structureDb;
     }

@@ -24,7 +24,7 @@ class Config {
     }
     
     public static function setDefaultLayoutTemplate($layoutTemplate) {
-        $_defaultLayoutTemplate = $layoutTemplate;
+        self::$_defaultLayoutTemplate = $layoutTemplate;
     }
     
     public static function getDefaultLayoutTemplate() {

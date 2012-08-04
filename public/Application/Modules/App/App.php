@@ -2,6 +2,7 @@
 
 class Module_App extends ModuleAbstract {
     public static function install() {
+
     }
     
     public static function load() {
